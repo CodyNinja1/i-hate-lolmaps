@@ -6,6 +6,7 @@
         while (True) {
             yield;
             log(CurrentServerLogin);
+        }
     }
      -->
 </script>
