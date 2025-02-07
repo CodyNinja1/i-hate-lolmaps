@@ -1,0 +1,12 @@
+<manialink version="3">
+<script>
+<!-- 
+    main() {
+        log("Init AntiLolmaps Manialink");
+        while (True) {
+            yield;
+            log(CurrentServerLogin);
+    }
+     -->
+</script>
+</manialink>
