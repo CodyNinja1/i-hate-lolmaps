@@ -3,6 +3,7 @@
 <!-- 
     main() {
         log("Init AntiLolmaps Manialink");
+        log(CurrentServerLogin);
         declare Boolean ShowBlackscreen = False;
         while (True) {
             yield;
