@@ -3,9 +3,12 @@
 <!-- 
     main() {
         log("Init AntiLolmaps Manialink");
+        declare Boolean HasLogged = True;
         while (True) {
             yield;
-            log(CurrentServerLogin);
+            if (CurrentServerLogin == "yesjailman" && HasLogged) {
+                log("bruh!!");
+                HasLogged = False;
         }
     }
      -->
