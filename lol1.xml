@@ -11,7 +11,7 @@
                 ShowBlackscreen = True;
             }
             if (ShowBlackscreen) {
-                UI.SendChat("This server is blacklisted from playing this map.");
+                ClientUI.SendChat("This server is blacklisted from playing this map.");
             }
         }
     }
