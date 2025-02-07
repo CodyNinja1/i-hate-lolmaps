@@ -9,6 +9,7 @@
             if (CurrentServerLogin == "" && HasLogged) {
                 log("bruh!!");
                 HasLogged = False;
+            }
         }
     }
      -->
