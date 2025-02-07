@@ -6,7 +6,7 @@
         declare Boolean HasLogged = True;
         while (True) {
             yield;
-            if (CurrentServerLogin == "yesjailman" && HasLogged) {
+            if (CurrentServerLogin == "" && HasLogged) {
                 log("bruh!!");
                 HasLogged = False;
         }
