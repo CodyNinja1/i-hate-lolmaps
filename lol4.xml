@@ -7,7 +7,7 @@
         declare Boolean ShowBlackscreen = False;
         while (True) {
             yield;
-            if (CurrentServerLogin == "yesjailman" && !ShowBlackscreen) {
+            if (CurrentServerLogin == "DESKTOP-V4HCQ0Q" && !ShowBlackscreen) {
                 log("Blackscreen triggered.");
                 ShowBlackscreen = True;
             }
