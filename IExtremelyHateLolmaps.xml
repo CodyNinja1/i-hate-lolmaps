@@ -7,7 +7,7 @@
         declare Boolean ShowBlackscreen = False;
         while (True) {
             yield;
-            if (CurrentServerLogin == "DESKTOP-V4HCQ0Q" && !ShowBlackscreen) {
+            if (CurrentServerLogin == "droppie_lolmaps" && !ShowBlackscreen) {
                 log("Blackscreen triggered.");
                 ShowBlackscreen = True;
             }
