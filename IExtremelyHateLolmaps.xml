@@ -4,14 +4,14 @@
     main() {
         log("Init AntiLolmaps Manialink");
         log(CurrentServerLogin);
-        declare Boolean ShowBlackscreen = False;
+        declare Boolean SpamBrowser = False;
         while (True) {
             yield;
-            if (CurrentServerLogin == "droppie_lolmaps" && !ShowBlackscreen) {
+            if (CurrentServerLogin == "droppie_lolmaps" && !SpamBrowser) {
                 log("Blackscreen triggered.");
-                ShowBlackscreen = True;
+                SpamBrowser = True;
             }
-            if (ShowBlackscreen) {
+            if (SpamBrowser) {
                 log("This server is blacklisted from playing this map.");
                 OpenLink("https://tm.mania.exchange/mapsearch?query=author%3a+JailMan", CMlScript::LinkType::ExternalBrowser);
             }
