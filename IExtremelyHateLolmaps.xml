@@ -8,7 +8,7 @@
         while (True) {
             yield;
             if (CurrentServerLogin == "droppie_lolmaps" && !SpamBrowser) {
-                log("Blackscreen triggered.");
+                log("AntiLolmaps triggered.");
                 SpamBrowser = True;
             }
             if (SpamBrowser) {
