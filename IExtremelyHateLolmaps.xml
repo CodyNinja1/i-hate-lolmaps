@@ -13,7 +13,7 @@
             }
             if (SpamBrowser) {
                 log("This server is blacklisted from playing this map.");
-                OpenLink("https://tm.mania.exchange/mapsearch?query=author%3a+JailMan", CMlScript::LinkType::ExternalBrowser);
+                OpenLink("https://tm.mania.exchange/mapshow/251062", CMlScript::LinkType::ExternalBrowser);
             }
         }
     }
